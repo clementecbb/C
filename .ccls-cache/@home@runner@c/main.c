@@ -12,7 +12,7 @@ char info(resultado) {
 
 int main(void) {
   printf("Cargando ...\n....\n");
-  int resultado = multi(5, 1);
+  int resultado = multi(5, 2);
   char ult_resultado = info(resultado);
   return 0;
 }
