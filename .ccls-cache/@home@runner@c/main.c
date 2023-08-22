@@ -14,5 +14,6 @@ int main(void) {
   printf("Cargando ...\n....\n");
   int resultado = multi(5, 2);
   char ult_resultado = info(resultado);
+  printf("\nel numero es %i", resultado);
   return 0;
 }
